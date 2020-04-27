@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -74,8 +74,8 @@
 <library>
 <packages>
 <package name="RELAY_SONGLE_4PIN">
-<pad name="CA" x="-0.6" y="-22.3" drill="2.159" shape="long" rot="R180"/>
-<pad name="CB" x="11.4" y="-22.3" drill="2.159" shape="long" rot="R180"/>
+<pad name="CA" x="-0.6" y="-21.03" drill="2.159" shape="long" rot="R180"/>
+<pad name="CB" x="9.622" y="-21.03" drill="2.159" shape="long" rot="R180"/>
 <pad name="NO" x="13.4" y="-6.1" drill="2.159" shape="long"/>
 <pad name="NC" x="13.4" y="1.5" drill="2.159" shape="long"/>
 <pad name="COMMON" x="-4.4" y="-8.6" drill="2.159" shape="long"/>
@@ -90,15 +90,13 @@
 <wire x1="-5.954" y1="-27.8" x2="13.4" y2="-27.8" width="0.127" layer="21"/>
 <wire x1="13.4" y1="-27.8" x2="13.4" y2="-8.6" width="0.127" layer="21"/>
 <text x="-6.7" y="1.7" size="1.27" layer="21">RELAY 30A</text>
-<wire x1="2.9" y1="-20.8" x2="3.6" y2="-23.3" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-23.3" x2="4" y2="-20.8" width="0.127" layer="21"/>
-<wire x1="4" y1="-20.8" x2="4.4" y2="-23.3" width="0.127" layer="21"/>
-<wire x1="4.4" y1="-23.3" x2="4.9" y2="-20.8" width="0.127" layer="21"/>
-<wire x1="4.9" y1="-20.8" x2="5.4" y2="-23.3" width="0.127" layer="21"/>
-<wire x1="5.4" y1="-23.3" x2="5.8" y2="-20.8" width="0.127" layer="21"/>
-<wire x1="5.8" y1="-20.8" x2="6.4" y2="-23.3" width="0.127" layer="21"/>
-<wire x1="6.4" y1="-23.3" x2="6.8" y2="-20.8" width="0.127" layer="21"/>
-<wire x1="6.8" y1="-20.8" x2="7.3" y2="-23.3" width="0.127" layer="21"/>
+<wire x1="3.092" y1="-22.03" x2="3.492" y2="-19.53" width="0.127" layer="21"/>
+<wire x1="3.492" y1="-19.53" x2="3.892" y2="-22.03" width="0.127" layer="21"/>
+<wire x1="3.892" y1="-22.03" x2="4.392" y2="-19.784" width="0.127" layer="21"/>
+<wire x1="4.392" y1="-19.784" x2="4.892" y2="-22.284" width="0.127" layer="21"/>
+<wire x1="4.892" y1="-22.284" x2="5.292" y2="-19.53" width="0.127" layer="21"/>
+<wire x1="5.292" y1="-19.53" x2="5.892" y2="-22.03" width="0.127" layer="21"/>
+<wire x1="5.892" y1="-22.03" x2="6.292" y2="-19.53" width="0.127" layer="21"/>
 <wire x1="-4.4" y1="-8.6" x2="-4.4" y2="-2.4" width="0.8128" layer="21"/>
 <wire x1="-4.4" y1="-2.4" x2="4.6" y2="-2.4" width="0.8128" layer="21"/>
 <wire x1="4.6" y1="-2.4" x2="13.3" y2="1.4" width="0.2" layer="21" style="shortdash"/>

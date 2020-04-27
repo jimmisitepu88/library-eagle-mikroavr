@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -79,16 +79,15 @@
 <pad name="NO" x="13.4" y="-6.1" drill="2.159" shape="long"/>
 <pad name="NC" x="13.4" y="1.5" drill="2.159" shape="long"/>
 <pad name="COMMON" x="-4.4" y="-8.6" drill="2.159" shape="long"/>
-<wire x1="13.4" y1="-8.6" x2="18.8" y2="-8.6" width="0.127" layer="21"/>
-<wire x1="18.8" y1="-8.6" x2="18.8" y2="-0.2" width="0.127" layer="21"/>
-<wire x1="18.8" y1="-0.2" x2="18.8" y2="4.2" width="0.127" layer="21"/>
-<wire x1="18.8" y1="4.2" x2="13.4" y2="4.2" width="0.127" layer="21"/>
-<wire x1="13.4" y1="4.2" x2="-8.8" y2="4.2" width="0.127" layer="21"/>
-<wire x1="-8.8" y1="4.2" x2="-8.8" y2="-12.3" width="0.127" layer="21"/>
+<wire x1="13.908" y1="-8.6" x2="18.8" y2="-8.6" width="0.127" layer="21"/>
+<wire x1="18.8" y1="-8.6" x2="18.8" y2="3.946" width="0.127" layer="21"/>
+<wire x1="18.8" y1="3.946" x2="13.4" y2="3.946" width="0.127" layer="21"/>
+<wire x1="13.4" y1="3.946" x2="-8.8" y2="3.946" width="0.127" layer="21"/>
+<wire x1="-8.8" y1="3.946" x2="-8.8" y2="-12.3" width="0.127" layer="21"/>
 <wire x1="-8.8" y1="-12.3" x2="-5.954" y2="-12.3" width="0.127" layer="21"/>
-<wire x1="-5.954" y1="-12.3" x2="-5.954" y2="-27.8" width="0.127" layer="21"/>
-<wire x1="-5.954" y1="-27.8" x2="13.4" y2="-27.8" width="0.127" layer="21"/>
-<wire x1="13.4" y1="-27.8" x2="13.4" y2="-8.6" width="0.127" layer="21"/>
+<wire x1="-5.954" y1="-12.3" x2="-5.954" y2="-28.308" width="0.127" layer="21"/>
+<wire x1="-5.954" y1="-28.308" x2="13.908" y2="-28.308" width="0.127" layer="21"/>
+<wire x1="13.908" y1="-28.308" x2="13.908" y2="-8.6" width="0.127" layer="21"/>
 <text x="-6.7" y="1.7" size="1.27" layer="21">RELAY 30A</text>
 <wire x1="3.092" y1="-22.03" x2="3.492" y2="-19.53" width="0.127" layer="21"/>
 <wire x1="3.492" y1="-19.53" x2="3.892" y2="-22.03" width="0.127" layer="21"/>
@@ -100,8 +99,9 @@
 <wire x1="-4.4" y1="-8.6" x2="-4.4" y2="-2.4" width="0.8128" layer="21"/>
 <wire x1="-4.4" y1="-2.4" x2="4.6" y2="-2.4" width="0.8128" layer="21"/>
 <wire x1="4.6" y1="-2.4" x2="13.3" y2="1.4" width="0.2" layer="21" style="shortdash"/>
-<wire x1="13.5" y1="4.1" x2="18.8" y2="-0.2" width="0.0762" layer="21"/>
-<wire x1="13.5" y1="4.1" x2="13.4" y2="4.2" width="0.0762" layer="21"/>
+<wire x1="14.008" y1="3.973" x2="13.4" y2="3.946" width="0.0762" layer="21"/>
+<wire x1="18.796" y1="0.508" x2="15.367" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="15.367" y1="3.937" x2="15.24" y2="3.937" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
